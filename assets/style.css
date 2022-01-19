@@ -26,3 +26,8 @@ header .wedding-wrapper
 	background: rgba(1, 10, 37, 0.9);
 	border-radius: 20px;
 }
+header .wedding-wrapper .wedding
+{
+	width: 762px;
+	height: 360px;
+}
