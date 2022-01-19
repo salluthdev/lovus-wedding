@@ -19,3 +19,7 @@ header
 	background-size: cover;
 	background-position: center;
 }
+header .wedding-board
+{
+	width: 800px;
+}
