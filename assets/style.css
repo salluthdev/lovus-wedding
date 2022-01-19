@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Limelight&family=Rye&family=Vast+Shadow&display=swap');
+:root
+{
+	--blue: #010a25;
+	--yellow: #d1b229;
+}
 *
 {
 	margin: 0;
@@ -37,7 +42,7 @@ header .wedding-wrapper .wedding
 	height: 360px;
 	flex-direction: column;
 	font-family: 'Vast Shadow', cursive;
-	border: 2px solid #d1b229;
+	border: 2px solid var(--yellow);
 	border-radius: 10px;
 }
 header .wedding-wrapper .wedding h2
@@ -57,5 +62,5 @@ header .wedding-wrapper .wedding h1
 	font-family: 'Rye', cursive;
 	font-weight: 400;
 	font-size: 100px;
-	color: #d1b229;
+	color: var(--yellow);
 }
