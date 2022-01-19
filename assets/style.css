@@ -17,7 +17,8 @@ header
 	background-position: center;
 }
 header, header .wedding-wrapper,
-header .wedding-wrapper .wedding
+header .wedding-wrapper .wedding,
+header .wedding-wrapper .wedding div
 {
 	display: flex;
 	justify-content: center;
