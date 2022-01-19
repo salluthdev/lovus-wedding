@@ -13,4 +13,5 @@ header
 {
 	height: 800px;
 	background: url('img/header-bg.png');
+	background-position: center;
 }
