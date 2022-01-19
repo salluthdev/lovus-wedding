@@ -12,6 +12,9 @@ body
 header
 {
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: url('img/header-bg.png');
 	background-size: cover;
 	background-position: center;
