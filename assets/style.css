@@ -51,3 +51,7 @@ header .wedding-wrapper .wedding div img:last-child
 {
 	transform: rotate(180deg);
 }
+header .wedding-wrapper .wedding h1
+{
+	font-family: 'Rye', cursive;
+}
