@@ -45,6 +45,7 @@ header .wedding-wrapper .wedding h2
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #fff;
+	margin: 0 10px;
 }
 header .wedding-wrapper .wedding div img:last-child
 {
