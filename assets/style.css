@@ -23,6 +23,9 @@ header .wedding-wrapper
 {
 	width: 800px;
 	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: rgba(1, 10, 37, 0.9);
 	border-radius: 20px;
 }
