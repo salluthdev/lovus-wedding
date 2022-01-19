@@ -24,4 +24,5 @@ header .wedding-board
 	width: 800px;
 	height: 400px;
 	background: rgba(1, 10, 37, 0.9);
+	border-radius: 20px;
 }
