@@ -34,6 +34,7 @@ header .wedding-wrapper .wedding
 {
 	width: 762px;
 	height: 360px;
+	flex-direction: column;
 	border: 2px solid #d1b229;
 	border-radius: 10px;
 }
