@@ -124,7 +124,7 @@ header .wedding-wrapper .wedding img:last-child
 	flex-direction: column;
 	align-items: center;
 }
-.main .content h1
+.main .content h2
 {
 	width: 500px;
 	font-family: 'Limelight', cursive;
@@ -148,4 +148,8 @@ header .wedding-wrapper .wedding img:last-child
 {
 	display: flex;
 	gap: 120px;
+}
+.main .content .couple-wrapper h1
+{
+	font-family: 'Rye', cursive;
 }
