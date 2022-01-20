@@ -104,3 +104,8 @@ header .wedding-wrapper .wedding img:last-child
 	font-weight: 400;
 	font-size: 70px;
 }
+.main .countdown-time .box h1,
+.main .countdown-time .box h2
+{
+	color: var(--blue);
+}
