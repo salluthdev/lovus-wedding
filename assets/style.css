@@ -72,3 +72,7 @@ header .wedding-wrapper .wedding h1
 	font-size: 100px;
 	color: var(--yellow);
 }
+header .wedding-wrapper .wedding img:last-child
+{
+	margin-top: 14px;
+}
