@@ -109,3 +109,7 @@ header .wedding-wrapper .wedding img:last-child
 {
 	color: var(--blue);
 }
+.main .countdown-time .box h2
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
