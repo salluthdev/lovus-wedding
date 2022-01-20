@@ -152,4 +152,6 @@ header .wedding-wrapper .wedding img:last-child
 .main .content .couple-wrapper h1
 {
 	font-family: 'Rye', cursive;
+	font-weight: 400;
+	font-size: 60px;
 }
