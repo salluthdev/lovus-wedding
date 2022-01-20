@@ -165,4 +165,6 @@ header .wedding-wrapper .wedding img:last-child
 .main .content .couple-wrapper .couple p
 {
 	width: 400px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: var(--yellow);
 }
