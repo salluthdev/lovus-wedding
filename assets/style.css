@@ -121,10 +121,12 @@ header .wedding-wrapper .wedding img:last-child
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
 }
-.main h1
+.main .content h1
 {
+	width: 500px;
 	font-family: 'Limelight', cursive;
 	font-weight: 400;
 	font-size: 35px;
+	text-align: center;
 	color: #fff;
 }
