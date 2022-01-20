@@ -144,3 +144,7 @@ header .wedding-wrapper .wedding img:last-child
 	color: #fff;
 	margin: 48px 0 34px;
 }
+.main .content .couple-wrapper
+{
+	display: flex;
+}
