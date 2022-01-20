@@ -85,6 +85,7 @@ header .wedding-wrapper .wedding img:last-child
 .main .countdown-time
 {
 	position: absolute;
+	top: -75px;
 }
 .main .countdown-time .box
 {
