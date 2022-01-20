@@ -147,4 +147,5 @@ header .wedding-wrapper .wedding img:last-child
 .main .content .couple-wrapper
 {
 	display: flex;
+	gap: 120px;
 }
