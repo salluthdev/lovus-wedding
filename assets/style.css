@@ -172,3 +172,7 @@ header .wedding-wrapper .wedding img:last-child
 	color: var(--yellow);
 	margin: unset;
 }
+.event
+{
+	padding: 100px 0 86px;
+}
