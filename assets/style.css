@@ -98,3 +98,8 @@ header .wedding-wrapper .wedding img:last-child
 	background: var(--yellow);
 	border-radius: 10px;
 }
+.main .countdown-time .box h1
+{
+	font-family: 'Limelight', cursive;
+	font-size: ;
+}
