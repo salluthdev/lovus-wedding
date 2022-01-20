@@ -88,5 +88,7 @@ header .wedding-wrapper .wedding img:last-child
 }
 .main .countdown-time .box
 {
+	width: 150px;
+	height: 150px;
 	background: var(--yellow);
 }
