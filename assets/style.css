@@ -138,6 +138,7 @@ header .wedding-wrapper .wedding img:last-child
 {
 	width: 900px;
 	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
 	font-weight: 300;
 	font-size: 20px;
 	text-align: center;
@@ -164,7 +165,9 @@ header .wedding-wrapper .wedding img:last-child
 }
 .main .content .couple-wrapper .couple p
 {
-	width: 400px;
+	width: 260px;
 	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
 	color: var(--yellow);
+	margin: unset;
 }
