@@ -86,3 +86,7 @@ header .wedding-wrapper .wedding img:last-child
 {
 	position: absolute;
 }
+.main .countdown-time .box
+{
+	background: var(--yellow);
+}
