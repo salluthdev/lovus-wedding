@@ -162,3 +162,7 @@ header .wedding-wrapper .wedding img:last-child
 	font-size: 60px;
 	color: #fff;
 }
+.main .content .couple-wrapper .couple p
+{
+	width: 400px;
+}
