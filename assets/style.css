@@ -96,4 +96,5 @@ header .wedding-wrapper .wedding img:last-child
 	width: 150px;
 	height: 150px;
 	background: var(--yellow);
+	border-radius: 10px;
 }
