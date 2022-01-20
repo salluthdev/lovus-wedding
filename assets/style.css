@@ -82,3 +82,7 @@ header .wedding-wrapper .wedding img:last-child
 	background: #010a25;
 	padding: 160px 0 180px;
 }
+.main .countdown-time
+{
+	position: absolute;
+}
