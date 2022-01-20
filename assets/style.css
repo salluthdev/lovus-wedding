@@ -149,7 +149,13 @@ header .wedding-wrapper .wedding img:last-child
 	display: flex;
 	gap: 120px;
 }
-.main .content .couple-wrapper h1
+.main .content .couple-wrapper .couple
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main .content .couple-wrapper .couple h1
 {
 	font-family: 'Rye', cursive;
 	font-weight: 400;
