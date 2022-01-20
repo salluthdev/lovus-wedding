@@ -79,6 +79,9 @@ header .wedding-wrapper .wedding img:last-child
 .main
 {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background: var(--blue);
 	padding: 160px 0 180px;
 }
