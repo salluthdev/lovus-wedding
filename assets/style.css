@@ -104,7 +104,8 @@ header .wedding-wrapper .wedding img:last-child
 .main .countdown-time .box, .main .content,
 .main .content .couple-wrapper .couple,
 .event, .event .card-wrapper .card, .guest-book,
-.our-story, .our-story .story-wrapper .story
+.our-story, .our-story .story-wrapper .story,
+.our-gallery, .people
 {
 	display: flex;
 	flex-direction: column;
@@ -156,7 +157,8 @@ p
 	gap: 120px;
 }
 .main .content .couple-wrapper .couple h1,
-.guest-book h1, .our-story h1
+.guest-book h1, .our-story h1, .our-gallery h1,
+.people h1
 {
 	font-family: 'Rye', cursive;
 	font-weight: 400;
@@ -346,7 +348,18 @@ p
 }
 .our-story .story-wrapper .container .story h2
 {
+	position: relative;
 	margin-bottom: 24px;
+}
+.our-story .story-wrapper .container .story h2::before
+{
+	width: 104px;
+	height: 1px;
+	position: absolute;
+	content: '';
+	bottom: -8px;
+	left: 0;
+	background: var(--yellow);
 }
 .our-story .story-wrapper .container .story p
 {
@@ -358,7 +371,7 @@ p
 	position: absolute;
 	top: 18px;
 }
-.our-story .story-wrapper .container .story img.love.left
+.our-story .story-wrapper .container .story img.love
 {
 	right: -74.5px;
 }
@@ -366,7 +379,65 @@ p
 {
 	justify-content: flex-end;
 }
-.our-story .story-wrapper .container .story img.love.right
+.our-story .story-wrapper .container.right .story h2
+{
+	color: var(--yellow);
+}
+.our-story .story-wrapper .container.right .story h2::before
+{
+	background: #8d99ae;
+}
+.our-story .story-wrapper .container.right .story img.love
 {
 	left: -75.5px;
+}
+.our-gallery
+{
+	position: relative;
+	background: var(--blue);
+	padding: 72px 0 100px;
+}
+.our-gallery h1
+{
+	margin: unset;
+}
+.our-gallery img.decoration
+{
+	margin: 10px 0 44px;
+}
+.swiper
+{
+    width: 820px;
+    margin-top: 18px;
+}
+.swiper-slide
+{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+}
+.swiper-button-prev
+{
+	left: 0;
+}
+.swiper-button-prev,
+.swiper-button-next
+{
+	color: var(--yellow);
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 4px;
+	padding: 30px 20px;
+}
+.swiper-button-next
+{
+	right: 0;
+}
+.people
+{
+	padding: 40px 0 100px;
+}
+.people h1
+{
+	color: var(--blue);
+	margin: 0 0 12px;
 }
