@@ -153,7 +153,8 @@ p
 	display: flex;
 	gap: 120px;
 }
-.main .content .couple-wrapper .couple h1
+.main .content .couple-wrapper .couple h1,
+.guest-book h1
 {
 	font-family: 'Rye', cursive;
 	font-weight: 400;
@@ -248,4 +249,8 @@ p
 	background: url('img/buku-tamu-bg.png');
 	background-size: cover;
 	padding: 46px 0 80px;
+}
+.guest-book h1
+{
+
 }
