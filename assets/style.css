@@ -259,3 +259,8 @@ p
 	font-style: normal;
 	font-weight: 400;
 }
+.guest-book .button-wrapper
+{
+	display: flex;
+	gap: 36px;
+}
