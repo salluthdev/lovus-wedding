@@ -23,7 +23,8 @@ header
 }
 header, header .wedding-wrapper,
 header .wedding-wrapper .wedding,
-header .wedding-wrapper .wedding div
+header .wedding-wrapper .wedding div,
+.event .card-wrapper
 {
 	display: flex;
 	justify-content: center;
