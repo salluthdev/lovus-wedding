@@ -214,6 +214,7 @@ p
 {
 	display: flex;
 	gap: 20px;
+	margin-top: 44px;
 }
 .event .card-wrapper .card .button-wrapper a
 {
