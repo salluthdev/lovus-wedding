@@ -181,6 +181,12 @@ header .wedding-wrapper .wedding img:last-child
 {
 	gap: 60px;
 }
+.event .card-wrapper .card
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .event .card-wrapper .card img
 {
 	border: 1px solid #d1b229;
