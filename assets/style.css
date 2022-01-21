@@ -182,3 +182,9 @@ header .wedding-wrapper .wedding img:last-child
 	border-radius: 14px;
 	padding: 10px;
 }
+.event .card-wrapper .card h1
+{
+	font-family: 'Limelight', cursive;
+	font-weight: 400;
+	font-size: 40px;
+}
