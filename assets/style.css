@@ -134,7 +134,7 @@ header .wedding-wrapper .wedding img:last-child
 	color: #fff;
 	margin-bottom: 24px;
 }
-.main .content p
+.main .content p, .guest-book p
 {
 	width: 900px;
 	font-style: italic;
@@ -253,4 +253,8 @@ p
 .guest-book h1
 {
 	margin: 0 0 8px;
+}
+.guest-book p
+{
+	width: 900px;
 }
