@@ -177,3 +177,7 @@ header .wedding-wrapper .wedding img:last-child
 {
 	padding: 100px 0 86px;
 }
+.event .card-wrapper
+{
+	gap: 60px;
+}
