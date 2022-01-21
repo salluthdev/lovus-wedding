@@ -256,5 +256,6 @@ p
 }
 .guest-book p
 {
-	width: 900px;
+	font-style: normal;
+	font-weight: 400;
 }
