@@ -193,6 +193,7 @@ p
 	font-size: 40px;
 	text-align: center;
 	color: var(--blue);
+	margin: 28px 0 20px;
 }
 .event .card-wrapper .card h1::before
 {
