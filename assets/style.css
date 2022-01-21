@@ -96,12 +96,17 @@ header .wedding-wrapper .wedding img:last-child
 {
 	width: 150px;
 	height: 150px;
-	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	background: var(--yellow);
 	border-radius: 10px;
+}
+.main .countdown-time .box, .main .content,
+.main .content .couple-wrapper .couple,
+.event .card-wrapper .card, .guest-book
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .main .countdown-time .box h1
 {
@@ -118,13 +123,6 @@ header .wedding-wrapper .wedding img:last-child
 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
-}
-.main .content, .main .content .couple-wrapper .couple,
-.event .card-wrapper .card, .guest-book
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 .main .content h2
 {
