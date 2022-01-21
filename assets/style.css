@@ -24,7 +24,7 @@ header
 header, header .wedding-wrapper,
 header .wedding-wrapper .wedding,
 header .wedding-wrapper .wedding div,
-.event .card-wrapper, .event .card-wrapper .card .button-wrapper a
+.event .card-wrapper, .event a
 {
 	display: flex;
 	justify-content: center;
@@ -222,14 +222,7 @@ p
 {
 	width: 180px;
 	height: 50px;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #fff;
 	background: var(--yellow);
-	border-radius: 5px;
 }
 .event .card-wrapper .card .button-wrapper a:last-child
 {
@@ -245,4 +238,12 @@ p
 {
 	width: 300px;
 	height: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	background: var(--blue);
+	border-radius: 5px;
 }
