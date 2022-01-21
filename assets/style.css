@@ -172,6 +172,9 @@ p
 }
 .event
 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding: 100px 0 86px;
 }
 .event .card-wrapper
@@ -232,4 +235,8 @@ p
 .event .card-wrapper .card .button-wrapper a:last-child
 {
 	background: #8d99ae;
+}
+.event p
+{
+	text-align: center;
 }
