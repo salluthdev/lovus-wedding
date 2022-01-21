@@ -103,7 +103,8 @@ header .wedding-wrapper .wedding img:last-child
 }
 .main .countdown-time .box, .main .content,
 .main .content .couple-wrapper .couple,
-.event, .event .card-wrapper .card, .guest-book
+.event, .event .card-wrapper .card, .guest-book,
+.our-story, .our-story .story-wrapper .story
 {
 	display: flex;
 	flex-direction: column;
@@ -155,7 +156,7 @@ p
 	gap: 120px;
 }
 .main .content .couple-wrapper .couple h1,
-.guest-book h1
+.guest-book h1, .our-story h1
 {
 	font-family: 'Rye', cursive;
 	font-weight: 400;
@@ -188,21 +189,25 @@ p
 {
 	width: 500px;
 	position: relative;
+	text-align: center;
+	margin: 28px 0 20px;
+}
+.event .card-wrapper .card h1,
+.our-story .story-wrapper .story h2
+{
 	font-family: 'Limelight', cursive;
 	font-weight: 400;
 	font-size: 40px;
-	text-align: center;
 	color: var(--blue);
-	margin: 28px 0 20px;
 }
 .event .card-wrapper .card h1::before
 {
 	width: 100px;
 	height: 1px;
 	position: absolute;
+	content: '';
 	bottom: -8px;
 	left: 200px;
-	content: '';
 	background: var(--yellow);
 }
 .event .card-wrapper .card p
@@ -221,7 +226,8 @@ p
 	height: 50px;
 	background: var(--yellow);
 }
-.event .card-wrapper .card .button-wrapper a:last-child
+.event .card-wrapper .card .button-wrapper a:last-child,
+.guest-book .button-wrapper a:last-child
 {
 	background: #8d99ae;
 }
@@ -273,4 +279,94 @@ p
 	width: 300px;
 	height: 50px;
 	background: var(--yellow);
+}
+.our-story
+{
+	padding: 64px 0 48px;
+}
+.our-story h1
+{
+	color: var(--blue);
+	margin: 0 0 10px;
+}
+.our-story .story-wrapper
+{
+	width: 1100px;
+	position: relative;
+	padding-top: 74px;
+}
+.our-story .story-wrapper::before
+{
+	width: 1px;
+	height: calc(100% - 60px);
+	position: absolute;
+	content: "";
+	top: 60px;
+	left: calc(50% - 0.5px);
+	background: var(--blue);
+	opacity: 0.5;
+}
+.our-story .story-wrapper .container
+{
+	width: 100%;
+	display: flex;
+}
+.our-story .story-wrapper .container .story
+{
+	width: 500px;
+	position: relative;
+	align-items: flex-start;
+	margin-bottom: 42px;
+}
+.our-story .story-wrapper .container .story .story-img
+{
+	position: relative;
+}
+.our-story .story-wrapper .container .story .story-img img
+{
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+.our-story .story-wrapper .container .story .story-img img.decoration
+{
+	width: 548px;
+	height: 360px;
+	position: absolute;
+	top: -28px;
+	left: -24px;
+}
+.our-story .story-wrapper .container .story h4
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 24px 0 12px;
+}
+.our-story .story-wrapper .container .story h2
+{
+	margin-bottom: 24px;
+}
+.our-story .story-wrapper .container .story p
+{
+	width: 500px;
+	font-weight: 300;
+}
+.our-story .story-wrapper .container .story img.love
+{
+	position: absolute;
+	top: 18px;
+}
+.our-story .story-wrapper .container .story img.love.left
+{
+	right: -74.5px;
+}
+.our-story .story-wrapper .container.right
+{
+	justify-content: flex-end;
+}
+.our-story .story-wrapper .container .story img.love.right
+{
+	left: -75.5px;
 }
