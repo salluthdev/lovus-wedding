@@ -189,3 +189,7 @@ header .wedding-wrapper .wedding img:last-child
 	font-size: 40px;
 	color: var(--blue);
 }
+.event .card-wrapper .card p
+{
+	text-align: center;
+}
