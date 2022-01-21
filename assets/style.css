@@ -229,3 +229,7 @@ p
 	background: var(--yellow);
 	border-radius: 5px;
 }
+.event .card-wrapper .card .button-wrapper a:last-child
+{
+	background: #8d99ae;
+}
