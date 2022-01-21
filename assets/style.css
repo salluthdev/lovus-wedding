@@ -180,16 +180,29 @@ p
 }
 .event .card-wrapper .card img
 {
-	border: 1px solid #d1b229;
+	border: 1px solid var(--yellow);
 	border-radius: 14px;
 	padding: 10px;
 }
 .event .card-wrapper .card h1
 {
+	width: 500px;
+	position: relative;
 	font-family: 'Limelight', cursive;
 	font-weight: 400;
 	font-size: 40px;
+	text-align: center;
 	color: var(--blue);
+}
+.event .card-wrapper .card h1::before
+{
+	width: 100px;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+	content: '';
+	background: var(--yellow);
 }
 .event .card-wrapper .card p
 {
