@@ -247,3 +247,9 @@ p
 	background: var(--blue);
 	border-radius: 5px;
 }
+.guest-book
+{
+	height: 400px;
+	background: url('img/buku-tamu-bg.png');
+	background-size: cover;
+}
