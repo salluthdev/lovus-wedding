@@ -119,7 +119,8 @@ header .wedding-wrapper .wedding img:last-child
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
 }
-.main .content
+.main .content, .main .content .couple-wrapper .couple,
+.event .card-wrapper .card
 {
 	display: flex;
 	flex-direction: column;
@@ -151,12 +152,6 @@ header .wedding-wrapper .wedding img:last-child
 	display: flex;
 	gap: 120px;
 }
-.main .content .couple-wrapper .couple
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 .main .content .couple-wrapper .couple h1
 {
 	font-family: 'Rye', cursive;
@@ -180,12 +175,6 @@ header .wedding-wrapper .wedding img:last-child
 .event .card-wrapper
 {
 	gap: 60px;
-}
-.event .card-wrapper .card
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 .event .card-wrapper .card img
 {
