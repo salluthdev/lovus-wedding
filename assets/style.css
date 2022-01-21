@@ -213,4 +213,5 @@ p
 .event .card-wrapper .card .button-wrapper
 {
 	display: flex;
+	gap: 20px;
 }
