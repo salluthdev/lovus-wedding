@@ -210,3 +210,7 @@ p
 	font-weight: 300;
 	text-align: center;
 }
+.event .card-wrapper .card .button-wrapper
+{
+	display: flex;
+}
