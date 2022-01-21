@@ -210,8 +210,7 @@ p
 }
 .event .card-wrapper .card p
 {
-	font-weight: 300;
-	text-align: center;
+	margin: unset;
 }
 .event .card-wrapper .card .button-wrapper
 {
@@ -240,4 +239,5 @@ p
 {
 	font-weight: 300;
 	text-align: center;
+	margin: 66px 0 48px;
 }
