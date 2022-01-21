@@ -120,7 +120,7 @@ header .wedding-wrapper .wedding img:last-child
 	font-weight: 400;
 }
 .main .content, .main .content .couple-wrapper .couple,
-.event .card-wrapper .card
+.event .card-wrapper .card, .guest-book
 {
 	display: flex;
 	flex-direction: column;
