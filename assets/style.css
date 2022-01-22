@@ -465,3 +465,8 @@ p
 	display: flex;
 	gap: 10px;
 }
+.people .tab-content h2
+{
+	font-family: 'Rye', cursive;
+	font-weight: 400;
+}
