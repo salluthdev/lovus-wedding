@@ -106,7 +106,8 @@ header .wedding-wrapper .wedding img:last-child
 .main .content .couple-wrapper .couple,
 .event, .event .card-wrapper .card, .guest-book,
 .our-story, .our-story .story-wrapper .story,
-.our-gallery, .people, .people .tab-content .card
+.our-gallery, .people, .people .tab-content .card,
+.thank-you
 {
 	display: flex;
 	flex-direction: column;
