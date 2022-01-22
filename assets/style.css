@@ -488,11 +488,16 @@ p
 .thank-you
 {
 	height: 150px;
+	color: #fff;
 	background: var(--yellow);
 	padding: 24px 0 8px;
 }
 .thank-you p
 {
 	font-family: 'Josefin Sans', sans-serif;
-	color: #fff;
+}
+.thank-you h1
+{
+	font-family: 'Rye', cursive;
+	font-weight: 400;
 }
