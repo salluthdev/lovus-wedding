@@ -452,12 +452,14 @@ p
 {
 	width: 150px;
 	height: 40px;
+	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
 	color: #8d99ae;
 	background: #e5e5e5;
 }
-.people .tab-nav a.tab-link:active
+.people .tab-nav a.tab-link.active
 {
+	color: #fff;
 	background: var(--yellow);
 }
 .people .tab-content
@@ -478,4 +480,12 @@ p
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
+}
+.tab-content:not(:target)
+{
+  display: none;
+}
+.tab-content:target
+{
+  display: flex;
 }
