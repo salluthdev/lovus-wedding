@@ -486,5 +486,6 @@ p
 }
 .thank-you
 {
+	height: 150px;
 	background: var(--yellow);
 }
