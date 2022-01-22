@@ -489,4 +489,9 @@ p
 {
 	height: 150px;
 	background: var(--yellow);
+	padding: 24px 0 8px;
+}
+.thank-you p
+{
+
 }
