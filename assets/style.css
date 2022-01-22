@@ -502,3 +502,7 @@ p
 	font-weight: 400;
 	font-size: 80px;
 }
+footer
+{
+	background: var(--blue);
+}
