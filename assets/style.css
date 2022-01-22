@@ -460,3 +460,7 @@ p
 {
 	background: var(--yellow);
 }
+.people .tab-content
+{
+	display: flex;
+}
