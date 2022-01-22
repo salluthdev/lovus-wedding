@@ -492,7 +492,7 @@ p
 	background: var(--yellow);
 	padding: 24px 0 8px;
 }
-.thank-you p
+.thank-you p, footer p
 {
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -506,4 +506,9 @@ footer
 {
 	height: 50px;
 	background: var(--blue);
+}
+footer p
+{
+	font-size: 14px;
+	color: #fff;
 }
