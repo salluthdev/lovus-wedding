@@ -106,7 +106,7 @@ header .wedding-wrapper .wedding img:last-child
 .main .content .couple-wrapper .couple,
 .event, .event .card-wrapper .card, .guest-book,
 .our-story, .our-story .story-wrapper .story,
-.our-gallery, .people
+.our-gallery, .people, .people .tab-content .card
 {
 	display: flex;
 	flex-direction: column;
@@ -465,7 +465,7 @@ p
 	display: flex;
 	gap: 10px;
 }
-.people .tab-content h2
+.people .tab-content .card h2
 {
 	font-family: 'Rye', cursive;
 	font-weight: 400;
