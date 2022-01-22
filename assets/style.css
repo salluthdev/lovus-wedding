@@ -484,3 +484,7 @@ p
 {
   display: flex;
 }
+.thank-you
+{
+	background: var(--yellow);
+}
