@@ -441,3 +441,7 @@ p
 	color: var(--blue);
 	margin: 0 0 12px;
 }
+.people .tab-nav
+{
+	display: flex;
+}
