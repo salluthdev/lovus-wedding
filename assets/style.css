@@ -457,11 +457,6 @@ p
 	color: #8d99ae;
 	background: #e5e5e5;
 }
-.people .tab-nav a.tab-link.active
-{
-	color: #fff;
-	background: var(--yellow);
-}
 .people .tab-content
 {
 	display: flex;
