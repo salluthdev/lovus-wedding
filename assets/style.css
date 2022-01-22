@@ -473,3 +473,7 @@ p
 	color: var(--blue);
 	margin: 10px 0 4px;
 }
+.people .tab-content .card p
+{
+	font-family: Open Sans;
+}
