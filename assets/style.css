@@ -504,5 +504,6 @@ p
 }
 footer
 {
+	height: 50px;
 	background: var(--blue);
 }
