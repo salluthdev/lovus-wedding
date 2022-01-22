@@ -25,7 +25,8 @@ header, header .wedding-wrapper,
 header .wedding-wrapper .wedding,
 header .wedding-wrapper .wedding div,
 .event .card-wrapper, .event a,
-.guest-book .button-wrapper a
+.guest-book .button-wrapper a,
+.people .tab-nav a
 {
 	display: flex;
 	justify-content: center;
@@ -444,4 +445,13 @@ p
 .people .tab-nav
 {
 	display: flex;
+	gap: 5px;
+}
+.people .tab-nav a
+{
+	width: 150px;
+	height: 40px;
+	text-decoration: none;
+	color: #8d99ae;
+	background: #e5e5e5;
 }
