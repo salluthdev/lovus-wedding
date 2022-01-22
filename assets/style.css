@@ -9,6 +9,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 body
 {
@@ -458,6 +459,11 @@ p
 	color: #8d99ae;
 	background: #e5e5e5;
 }
+.people .tab-nav a.tab-link.active
+{
+	color: #fff;
+	background: var(--yellow);
+}
 .people .tab-content
 {
 	display: flex;
@@ -481,6 +487,7 @@ p
 {
   display: none;
 }
+.tab-content.active,
 .tab-content:target
 {
   display: flex;

@@ -12,22 +12,42 @@ var swiper = new Swiper(".mySwiper", {
 	},
 });
 
-function openPage(pageName,elmnt,color)
-{
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tab-content");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tab-link");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-    tablinks[i].style.color = "";
-  }
-  document.getElementById(pageName).style.display = "flex";
-  elmnt.style.backgroundColor = color;
-  document.getElementById(pageName).style.display = "flex";
-  elmnt.style.color = "#fff";
+var tabNav = document.getElementById("tab-nav");
+var tabLink = tabNav.getElementsByClassName("tab-link");
+
+for (var i = 0; i < tabLink.length; i++) {
+  tabLink[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
 }
 
-document.getElementById("defaultOpen").click();
+function Tabs() {
+  var bindAll = function() {
+    var menuElements = document.querySelectorAll('[data-tab]');
+    for(var i = 0; i < menuElements.length ; i++) {
+      menuElements[i].addEventListener('click', change, false);
+    }
+  }
+
+  var clear = function() {
+    var menuElements = document.querySelectorAll('[data-tab]');
+    for(var i = 0; i < menuElements.length ; i++) {
+      menuElements[i].classList.remove('active');
+      var id = menuElements[i].getAttribute('data-tab');
+      document.getElementById(id).classList.remove('active');
+    }
+  }
+
+  var change = function(e) {
+    clear();
+    e.target.classList.add('active');
+    var id = e.currentTarget.getAttribute('data-tab');
+    document.getElementById(id).classList.add('active');
+  }
+
+  bindAll();
+}
+
+var connectTabs = new Tabs();
