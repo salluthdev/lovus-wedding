@@ -463,4 +463,5 @@ p
 .people .tab-content
 {
 	display: flex;
+	gap: 10px;
 }
