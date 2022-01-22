@@ -448,11 +448,15 @@ p
 	gap: 5px;
 	margin: 32px 0;
 }
-.people .tab-nav a
+.people .tab-nav a.tab-link
 {
 	width: 150px;
 	height: 40px;
 	text-decoration: none;
 	color: #8d99ae;
 	background: #e5e5e5;
+}
+.people .tab-nav a.tab-link:active
+{
+	background: var(--yellow);
 }
