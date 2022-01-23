@@ -557,4 +557,8 @@ footer p
 		top: -25px;
 		left: -25px;
 	}
+	.our-gallery img.featured
+	{
+		width: 100%;
+	}
 }
