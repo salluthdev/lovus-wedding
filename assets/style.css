@@ -528,7 +528,7 @@ footer p
 	}
 	.our-story .story-wrapper
 	{
-		width: 600px;
+		width: 580px;
 	}
 	.our-story .story-wrapper::before
 	{
@@ -537,7 +537,7 @@ footer p
 	.our-story .story-wrapper .container .story
 	{
 		width: 100%;
-		align-items: center;
+		align-items: flex-end;
 	}
 	.our-story .story-wrapper .container .story h4,
 	.our-story .story-wrapper .container .story h2
