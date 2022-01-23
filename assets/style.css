@@ -130,6 +130,10 @@ header .wedding-wrapper .wedding img:last-child
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
 }
+.main .content
+{
+	padding: 0 60px;
+}
 .main .content h2
 {
 	width: 500px;
