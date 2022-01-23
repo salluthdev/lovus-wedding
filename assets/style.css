@@ -544,4 +544,8 @@ footer p
 	{
 		width: 500px;
 	}
+	.our-story .story-wrapper .container .story img.love
+	{
+		left: -25px;
+	}
 }
