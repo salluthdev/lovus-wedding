@@ -522,6 +522,10 @@ footer p
 
 @media (max-width: 1200px)
 {
+	.event
+	{
+		padding: 100px 20px 86px;
+	}
 	.event .card-wrapper
 	{
 		flex-direction: column;
