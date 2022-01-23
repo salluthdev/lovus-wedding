@@ -149,6 +149,10 @@ header .wedding-wrapper .wedding img:last-child
 	color: #fff;
 	margin: 48px 0 34px;
 }
+.main .content p
+{
+	margin: 48px 0;
+}
 p
 {
 	font-family: 'Josefin Sans', sans-serif;
