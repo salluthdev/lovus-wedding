@@ -532,6 +532,10 @@ footer p
 
 @media (max-width: 1200px)
 {
+	.main .content
+	{
+		padding: 0 20px;
+	}
 	.main .content .couple-wrapper
 	{
 		gap: 48px;
