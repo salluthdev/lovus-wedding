@@ -519,3 +519,11 @@ footer p
 	font-size: 14px;
 	color: #fff;
 }
+
+@media (max-width: 1200px)
+{
+	.event .card-wrapper
+	{
+		flex-direction: column;
+	}
+}
