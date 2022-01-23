@@ -538,4 +538,8 @@ footer p
 	{
 		display: block;
 	}
+	.our-story .story-wrapper .container .story
+	{
+		width: 100%;
+	}
 }
