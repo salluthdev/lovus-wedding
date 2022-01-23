@@ -526,4 +526,8 @@ footer p
 	{
 		flex-direction: column;
 	}
+	.our-story .story-wrapper
+	{
+		width: 600px;
+	}
 }
