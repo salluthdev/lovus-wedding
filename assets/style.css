@@ -524,6 +524,10 @@ footer p
 
 @media (max-width: 1200px)
 {
+	.main .content .couple-wrapper
+	{
+		gap: 48px;
+	}
 	.main .content .couple-wrapper,
 	.event .card-wrapper
 	{
