@@ -530,4 +530,8 @@ footer p
 	{
 		width: 600px;
 	}
+	.our-story .story-wrapper::before
+	{
+		left: 0;
+	}
 }
