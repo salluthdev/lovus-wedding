@@ -542,9 +542,13 @@ footer p
 	}
 	.our-story .story-wrapper .container .story
 	{
-		width: 100%;
 		align-items: flex-end;
 		margin-bottom: 72px;
+	}
+	.our-story .story-wrapper .container .story,
+	.our-gallery img.featured, .swiper
+	{
+		width: 100%;
 	}
 	.our-story .story-wrapper .container .story h4,
 	.our-story .story-wrapper .container .story h2
@@ -560,13 +564,5 @@ footer p
 	.our-gallery
 	{
 		padding: 72px 20px 100px;
-	}
-	.our-gallery img.featured
-	{
-		width: 100%;
-	}
-	.swiper
-	{
-	  width: 100%;
 	}
 }
