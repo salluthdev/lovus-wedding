@@ -398,7 +398,7 @@ p
 {
 	position: relative;
 	background: var(--blue);
-	padding: 72px 0 100px;
+	padding: 72px 60px 100px;
 }
 .our-gallery h1
 {
@@ -556,6 +556,10 @@ footer p
 	{
 		top: -25px;
 		left: -25px;
+	}
+	.our-gallery
+	{
+		padding: 72px 20px 100px;
 	}
 	.our-gallery img.featured
 	{
