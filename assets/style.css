@@ -534,4 +534,8 @@ footer p
 	{
 		left: 0;
 	}
+	.our-story .story-wrapper .container
+	{
+		display: block;
+	}
 }
