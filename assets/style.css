@@ -534,12 +534,14 @@ footer p
 	{
 		left: 0;
 	}
-	.our-story .story-wrapper .container
-	{
-		display: block;
-	}
 	.our-story .story-wrapper .container .story
 	{
 		width: 100%;
+		align-items: center;
+	}
+	.our-story .story-wrapper .container .story h4,
+	.our-story .story-wrapper .container .story h2
+	{
+		width: 500px;
 	}
 }
