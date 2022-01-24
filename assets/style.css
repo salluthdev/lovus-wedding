@@ -469,6 +469,8 @@ p
 .people .tab-nav
 {
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	gap: 5px;
 	margin: 32px 0;
 }
