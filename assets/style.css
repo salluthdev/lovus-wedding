@@ -660,3 +660,20 @@ footer p
 		font-size: 60px;
 	}
 }
+
+@media (max-width: 624px)
+{
+	.main .countdown-time .box
+	{
+		width: 90px;
+		height: 90px;
+	}
+	.main .countdown-time .box h1
+	{
+		font-size: 60px;
+	}
+	.main .countdown-time .box h2
+	{
+		font-size: 21px;
+	}
+}
