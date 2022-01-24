@@ -752,6 +752,10 @@ footer p
 
 @media (max-width: 540px)
 {
+	header .wedding-wrapper .wedding div img
+	{
+		display: none;
+	}
 	.main .countdown-time
 	{
 		gap: 20px;
