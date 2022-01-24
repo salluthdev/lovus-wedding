@@ -98,6 +98,7 @@ header .wedding-wrapper .wedding img:last-child
 	top: -75px;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: 40px;
 }
 .main .countdown-time .box
@@ -602,6 +603,11 @@ footer p
 	header .wedding-wrapper .wedding
 	{
 		width: calc(100% - 38px);
+	}
+	.main .countdown-time .box
+	{
+		width: 120px;
+		height: 120px;
 	}
 	.swiper-slide
 	{
