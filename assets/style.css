@@ -543,7 +543,7 @@ footer p
 
 @media (max-width: 1200px)
 {
-	header, .main .content
+	header, .main .content, .event
 	{
 		padding: 0 20px;
 	}
