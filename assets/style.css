@@ -690,6 +690,18 @@ footer p
 
 @media (max-width: 624px)
 {
+	header .wedding-wrapper .wedding div h2
+	{
+		font-size: 24px;
+	}
+	header .wedding-wrapper .wedding h2
+	{
+		font-size: 40px;
+	}
+	header .wedding-wrapper .wedding h1
+	{
+		font-size: 80px;
+	}
 	.main .countdown-time
 	{
 		top: -45px;
