@@ -850,6 +850,14 @@ footer p
 
 @media (max-width: 420px)
 {
+	header, .main .content
+	{
+		padding: 0 14px;
+	}
+	.main .countdown-time
+	{
+		gap: 14px;
+	}
 	p
 	{
 		font-size: 16px;
@@ -863,5 +871,29 @@ footer p
 	.main .content .couple-wrapper .couple img
 	{
 		width: 100%;
+	}
+	.event
+	{
+		padding: 100px 14px 86px;
+	}
+	.guest-book
+	{
+		padding: 46px 14px 80px;
+	}
+	.our-story
+	{
+		padding: 64px 14px 48px;
+	}
+	.our-gallery
+	{
+		padding: 72px 14px 100px;
+	}
+	.people
+	{
+		padding: 40px 14px 100px;
+	}
+	.thank-you
+	{
+		padding: 24px 14px 8px;
 	}
 }
