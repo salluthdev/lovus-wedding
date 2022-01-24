@@ -826,6 +826,11 @@ footer p
 	{
 		font-size: 48px;
 	}
+	.event .card-wrapper .card h1,
+	.our-story .story-wrapper .story h2
+	{
+		font-size: 32px;
+	}
 	.our-story .story-wrapper
 	{
 		width: 320px;
