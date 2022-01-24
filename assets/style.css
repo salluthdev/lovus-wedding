@@ -754,4 +754,15 @@ footer p
 	{
 		width: 100%;
 	}
+	.our-story .story-wrapper
+	{
+		width: 360px;
+	}
+	.our-story .story-wrapper .container .story .story-img img,
+	.our-story .story-wrapper .container .story h4,
+	.our-story .story-wrapper .container .story h2,
+	.our-story .story-wrapper .container .story p
+	{
+		width: 320px;
+	}
 }
