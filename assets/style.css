@@ -532,7 +532,7 @@ footer p
 
 @media (max-width: 1200px)
 {
-	.main .content
+	header, .main .content
 	{
 		padding: 0 20px;
 	}
