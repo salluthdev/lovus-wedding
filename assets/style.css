@@ -623,5 +623,6 @@ footer p
 	.guest-book .button-wrapper
 	{
 		flex-direction: column;
+		gap: 20px;
 	}
 }
