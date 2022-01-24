@@ -625,4 +625,20 @@ footer p
 		flex-direction: column;
 		gap: 20px;
 	}
+	.our-story .story-wrapper
+	{
+		width: 440px;
+	}
+	.our-story .story-wrapper .container .story,
+	.our-story .story-wrapper .container .story .story-img img,
+	.our-story .story-wrapper .container .story h4,
+	.our-story .story-wrapper .container .story h2,
+	.our-story .story-wrapper .container .story p
+	{
+		width: 400px;
+	}
+	.our-story .story-wrapper .container .story .story-img img.decoration
+	{
+		display: none;
+	}
 }
