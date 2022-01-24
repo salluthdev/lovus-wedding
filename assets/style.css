@@ -808,6 +808,12 @@ footer p
 	{
 		font-size: 18px;
 	}
+	.main .content .couple-wrapper .couple h1,
+	.guest-book h1, .our-story h1, .our-gallery h1,
+	.people h1
+	{
+		font-size: 48px;
+	}
 	.our-story .story-wrapper
 	{
 		width: 320px;
