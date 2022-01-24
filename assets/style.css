@@ -342,6 +342,7 @@ p
 	height: 300px;
 	object-fit: cover;
 	object-position: center;
+	border-radius: 10px;
 }
 .our-story .story-wrapper .container .story .story-img img.decoration
 {
@@ -643,11 +644,5 @@ footer p
 	.our-story .story-wrapper .container .story .story-img img.decoration
 	{
 		display: none;
-	}
-	.our-story .story-wrapper .container .story img.love,
-	.our-story .story-wrapper .container.right .story img.love
-	{
-		top: -25px;
-		left: -25px;
 	}
 }
