@@ -419,6 +419,13 @@ p
 {
 	margin: 10px 0 44px;
 }
+.our-gallery img.featured
+{
+	height: 500px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 5px;
+}
 .swiper
 {
   width: 820px;
@@ -683,5 +690,9 @@ footer p
 	.main .countdown-time .box h2
 	{
 		font-size: 18px;
+	}
+	.swiper-slide
+	{
+		margin: 0 80px;
 	}
 }
