@@ -716,3 +716,11 @@ footer p
 		margin: 0 80px;
 	}
 }
+
+@media (max-width: 540px)
+{
+	.main .content h2
+	{
+		width: 100%;
+	}
+}
