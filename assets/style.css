@@ -508,6 +508,7 @@ p
 .thank-you
 {
 	height: 150px;
+	justify-content: center;
 	color: #fff;
 	background: var(--yellow);
 	padding: 24px 0 8px;
