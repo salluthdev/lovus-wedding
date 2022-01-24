@@ -522,7 +522,7 @@ p
 	justify-content: center;
 	color: #fff;
 	background: var(--yellow);
-	padding: 24px 0 8px;
+	padding: 24px 60px 8px;
 }
 .thank-you p, footer p
 {
