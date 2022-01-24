@@ -651,6 +651,10 @@ footer p
 	{
 		margin: 0 40px;
 	}
+	.swiper-slide.active
+	{
+		margin-left: unset;
+	}
 }
 
 @media (max-width: 720px)
@@ -799,5 +803,20 @@ footer p
 	.main .countdown-time .box h2
 	{
 		font-size: 18px;
+	}
+	.our-story .story-wrapper
+	{
+		width: 320px;
+	}
+	.our-story .story-wrapper .container .story .story-img img,
+	.our-story .story-wrapper .container .story h4,
+	.our-story .story-wrapper .container .story h2,
+	.our-story .story-wrapper .container .story p
+	{
+		width: 280px;
+	}
+	.our-story .story-wrapper .container .story .story-img img
+	{
+		height: 160px;
 	}
 }
