@@ -806,7 +806,7 @@ footer p
 	}
 	p
 	{
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.our-story .story-wrapper
 	{
@@ -822,5 +822,13 @@ footer p
 	.our-story .story-wrapper .container .story .story-img img
 	{
 		height: 160px;
+	}
+}
+
+@media (max-width: 420px)
+{
+	p
+	{
+		font-size: 16px;
 	}
 }
