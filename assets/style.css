@@ -650,4 +650,8 @@ footer p
 	{
 		display: none;
 	}
+	.thank-you h1
+	{
+		font-size: 60px;
+	}
 }
