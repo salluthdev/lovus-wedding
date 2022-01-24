@@ -33,7 +33,7 @@ header .wedding-wrapper .wedding div,
 	justify-content: center;
 	align-items: center;
 }
-header, .main .content
+header, .main .content, .our-story
 {
 	padding: 0 60px;
 }
