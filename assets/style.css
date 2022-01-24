@@ -768,3 +768,24 @@ footer p
 		width: 320px;
 	}
 }
+
+@media (max-width: 480px)
+{
+	.main .countdown-time
+	{
+		top: -60px;
+	}
+	.main .countdown-time .box
+	{
+		width: 60px;
+		height: 60px;
+	}
+	.main .countdown-time .box h1
+	{
+		font-size: 60px;
+	}
+	.main .countdown-time .box h2
+	{
+		font-size: 21px;
+	}
+}
