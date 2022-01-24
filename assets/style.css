@@ -667,6 +667,10 @@ footer p
 
 @media (max-width: 624px)
 {
+	.main .countdown-time
+	{
+		top: -45px;
+	}
 	.main .countdown-time .box
 	{
 		width: 90px;
