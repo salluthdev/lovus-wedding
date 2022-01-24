@@ -598,4 +598,8 @@ footer p
 	{
 		width: 100%;
 	}
+	header .wedding-wrapper .wedding
+	{
+		width: calc(100% - 38px);
+	}
 }
