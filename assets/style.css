@@ -606,6 +606,10 @@ footer p
 	{
 		width: calc(100% - 38px);
 	}
+	.main .countdown-time
+	{
+		top: -60px;
+	}
 	.main .countdown-time .box
 	{
 		width: 120px;
