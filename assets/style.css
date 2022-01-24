@@ -33,7 +33,7 @@ header .wedding-wrapper .wedding div,
 	justify-content: center;
 	align-items: center;
 }
-header, .main .content, .event
+header, .main .content
 {
 	padding: 0 60px;
 }
@@ -195,6 +195,8 @@ p
 }
 .event .card-wrapper .card img
 {
+	width: 522px;
+	height: 322px;
 	border: 1px solid var(--yellow);
 	border-radius: 14px;
 	padding: 10px;
@@ -543,7 +545,7 @@ footer p
 
 @media (max-width: 1200px)
 {
-	header, .main .content, .event
+	header, .main .content
 	{
 		padding: 0 20px;
 	}
