@@ -613,6 +613,10 @@ footer p
 	{
 		padding: 40px 20px 100px;
 	}
+	.thank-you
+	{
+		padding: 24px 20px 8px;
+	}
 }
 
 @media (max-width: 870px)
@@ -680,7 +684,7 @@ footer p
 	}
 	.thank-you
 	{
-		padding: 8px 0;
+		padding: 8px 20px;
 	}
 	.thank-you h1
 	{
