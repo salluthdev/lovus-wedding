@@ -51,7 +51,7 @@ header .wedding-wrapper .wedding
 	font-family: 'Vast Shadow', cursive;
 	border: 2px solid var(--yellow);
 	border-radius: 10px;
-	padding: 20px 0;
+	padding: 20px;
 }
 header .wedding-wrapper .wedding div
 {
