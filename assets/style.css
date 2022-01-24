@@ -518,7 +518,6 @@ p
 }
 .thank-you
 {
-	height: 150px;
 	justify-content: center;
 	color: #fff;
 	background: var(--yellow);
@@ -684,7 +683,7 @@ footer p
 	}
 	.thank-you
 	{
-		padding: 8px 20px;
+		padding: 24px 20px 16px;
 	}
 	.thank-you h1
 	{
@@ -738,6 +737,10 @@ footer p
 	.swiper-slide
 	{
 		margin: 0 80px;
+	}
+	.thank-you h1
+	{
+		font-size: 40px;
 	}
 }
 
