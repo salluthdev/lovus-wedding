@@ -662,6 +662,10 @@ footer p
 	{
 		display: none;
 	}
+	.our-gallery img.featured
+	{
+		height: 320px;
+	}
 	.thank-you
 	{
 		padding: 8px 0;
