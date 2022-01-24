@@ -609,6 +609,10 @@ footer p
 	{
 		padding: 72px 20px 100px;
 	}
+	.people
+	{
+		padding: 40px 20px 100px;
+	}
 }
 
 @media (max-width: 870px)
