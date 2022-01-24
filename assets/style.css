@@ -719,6 +719,10 @@ footer p
 
 @media (max-width: 540px)
 {
+	.main .countdown-time
+	{
+		gap: 20px;
+	}
 	.main .content h2
 	{
 		width: 100%;
