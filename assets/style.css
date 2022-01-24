@@ -675,6 +675,10 @@ footer p
 	{
 		width: 400px;
 	}
+	.our-story .story-wrapper .container .story .story-img img
+	{
+		height: 260px;
+	}
 	.our-story .story-wrapper .container .story .story-img img.decoration
 	{
 		display: none;
@@ -766,6 +770,10 @@ footer p
 	.our-story .story-wrapper .container .story p
 	{
 		width: 320px;
+	}
+	.our-story .story-wrapper .container .story .story-img img
+	{
+		height: 200px;
 	}
 }
 
