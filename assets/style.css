@@ -610,6 +610,14 @@ footer p
 		width: 120px;
 		height: 120px;
 	}
+	.main .countdown-time .box h1
+	{
+		font-size: 60px;
+	}
+	.main .countdown-time .box h2
+	{
+		font-size: 21px;
+	}
 	.swiper-slide
 	{
 		margin: 0 40px;
