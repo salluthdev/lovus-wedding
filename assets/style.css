@@ -351,6 +351,7 @@ p
 	position: absolute;
 	top: -28px;
 	left: -24px;
+	border-radius: unset;
 }
 .our-story .story-wrapper .container .story h4
 {
@@ -612,10 +613,6 @@ footer p
 	.swiper-slide
 	{
 		margin: 0 40px;
-	}
-	.swiper-slide-active
-	{
-		margin-left: unset;
 	}
 }
 
