@@ -78,6 +78,7 @@ header .wedding-wrapper .wedding h1
 	font-family: 'Rye', cursive;
 	font-weight: 400;
 	font-size: 100px;
+	text-align: center;
 	color: var(--yellow);
 }
 header .wedding-wrapper .wedding img:last-child
