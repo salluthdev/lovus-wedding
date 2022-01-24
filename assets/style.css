@@ -629,6 +629,10 @@ footer p
 	{
 		width: 440px;
 	}
+	.our-story .story-wrapper .container
+	{
+		justify-content: flex-end;
+	}
 	.our-story .story-wrapper .container .story,
 	.our-story .story-wrapper .container .story .story-img img,
 	.our-story .story-wrapper .container .story h4,
