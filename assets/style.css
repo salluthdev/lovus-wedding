@@ -197,6 +197,8 @@ p
 {
 	width: 522px;
 	height: 322px;
+	object-fit: cover;
+	object-position: center;
 	border: 1px solid var(--yellow);
 	border-radius: 14px;
 	padding: 10px;
