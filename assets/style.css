@@ -287,7 +287,6 @@ p
 {
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
 	gap: 36px;
 }
 .guest-book .button-wrapper a
@@ -617,5 +616,13 @@ footer p
 	.swiper-slide-active
 	{
 		margin-left: unset;
+	}
+}
+
+@media (max-width: 720px)
+{
+	.guest-book .button-wrapper
+	{
+		flex-direction: column;
 	}
 }
