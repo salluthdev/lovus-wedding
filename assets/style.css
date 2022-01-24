@@ -603,4 +603,12 @@ footer p
 	{
 		width: calc(100% - 38px);
 	}
+	.swiper-slide
+	{
+		margin: 0 40px;
+	}
+	.swiper-slide-active
+	{
+		margin-left: unset;
+	}
 }
