@@ -852,6 +852,13 @@ footer p
 	{
 		height: 160px;
 	}
+	.our-story .story-wrapper .container .story img.love,
+	.our-story .story-wrapper .container.right .story img.love
+	{
+		width: 40px;
+		top: -20px;
+		left: -20px;
+	}
 }
 
 @media (max-width: 420px)
@@ -916,5 +923,26 @@ footer p
 	.thank-you
 	{
 		padding: 24px 14px 8px;
+	}
+}
+
+@media (max-width: 380px)
+{
+	.main .countdown-time
+	{
+		top: -35px;
+	}
+	.main .countdown-time .box
+	{
+		width: 70px;
+		height: 70px;
+	}
+	.main .countdown-time .box h1
+	{
+		font-size: 28px;
+	}
+	.main .countdown-time .box h2
+	{
+		font-size: 16px;
 	}
 }
